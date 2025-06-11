@@ -21,5 +21,9 @@ class ViewController: UIViewController {
         let newView = UIView()
         view.addSubview(newView)
     }
+    
+    func changeBGColor() {
+        view.backgroundColor = .red
+    }
 }
 
